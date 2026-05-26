@@ -45,7 +45,7 @@ export const cropGroups: CropGroup[] = [
       {
         // Source: SNP-Seek DB (Mansueto et al. 2017, NAR); 3K RG Consortium 2014, GigaScience
         name: "3K RG SNP-Seek",
-        url: "#", // [PLACEHOLDER] — replace with live instance URL
+        url: "https://brs-snpseek.duckdns.org/3kRG",
         description:
           "Genome-wide SNP data from the 3,000 Rice Genomes Project — the largest public rice diversity resource, jointly produced by IRRI, BGI, and the G3 consortium.",
         accessions: "3,024",
@@ -58,7 +58,7 @@ export const cropGroups: CropGroup[] = [
         // Reference genome: Japonica Nipponbare (IRGSP-1.0)
         // SNP count: [PLACEHOLDER] — not yet published as of 2026
         name: "1K1 Philippine Rice SNP-Seek",
-        url: "#", // [PLACEHOLDER] — replace with live instance URL
+        url: "https://brs-snpseek.duckdns.org/ph_gdb/",
         description:
           "SNP catalog for 1,001 Philippine traditional rice varieties (TRVs), a collaborative genomics program led by the Philippine Genome Center, PhilRice, and IRRI to characterise heirloom and heritage rice diversity.",
         accessions: "1,001",
