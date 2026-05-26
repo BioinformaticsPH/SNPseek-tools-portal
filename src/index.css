@@ -1,0 +1,47 @@
+@import "@fontsource/inter/300.css";
+@import "@fontsource/inter/400.css";
+@import "@fontsource/inter/500.css";
+@import "@fontsource/inter/600.css";
+@import "@fontsource/inter/700.css";
+
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+
+  /* CIMMYT Green palette */
+  --color-cimmyt-50:  #f0f7ef;
+  --color-cimmyt-100: #d9ecda;
+  --color-cimmyt-200: #b3d9b4;
+  --color-cimmyt-300: #80bf83;
+  --color-cimmyt-400: #4fa854;
+  --color-cimmyt-500: #4a7c3f;
+  --color-cimmyt-600: #3d6934;
+  --color-cimmyt-700: #31542a;
+  --color-cimmyt-800: #264020;
+  --color-cimmyt-900: #1a2e15;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #f8fafc;
+  color: #1e293b;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  width: 100%;
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+}
