@@ -70,16 +70,6 @@ export const cropGroups: CropGroup[] = [
         snpCount: "[PLACEHOLDER]", // not yet published
         badge: "Nipponbare",
       },
-      {
-        // [PLACEHOLDER] — all fields below are placeholder values
-        name: "19K Rice SNP-Seek",
-        url: "#", // [PLACEHOLDER]
-        description:
-          "[PLACEHOLDER] — Large-scale rice genotyping panel covering approximately 19,000 accessions.",
-        accessions: "~19,000",     // [PLACEHOLDER]
-        snpCount: "[PLACEHOLDER]", // [PLACEHOLDER]
-        badge: "[PLACEHOLDER]",    // [PLACEHOLDER] — reference genome version
-      },
     ],
   },
 
