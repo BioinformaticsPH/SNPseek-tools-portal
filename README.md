@@ -5,7 +5,7 @@
 
 | Environment | URL |
 |---|---|
-| **Dev (staging)** | `http://brs-snpseek.duckdns.org/dev/` |
+|  |
 | Production *(future)* | `http://brs-snpseek.duckdns.org/` |
 
 ---
