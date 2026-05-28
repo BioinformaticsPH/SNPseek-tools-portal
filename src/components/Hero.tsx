@@ -8,19 +8,7 @@ const STATS = [
 
 export default function Hero() {
   return (
-    <section className="relative overflow-hidden bg-white border-b border-slate-200">
-      {/* Subtle grid pattern overlay */}
-      <div
-        aria-hidden="true"
-        className="absolute inset-0 pointer-events-none"
-        style={{
-          backgroundImage:
-            "linear-gradient(to right, #e2e8f0 1px, transparent 1px), linear-gradient(to bottom, #e2e8f0 1px, transparent 1px)",
-          backgroundSize: "40px 40px",
-          opacity: 0.35,
-        }}
-      />
-
+    <section className="relative overflow-hidden min-h-[calc(100svh-4rem)] flex items-center">
       {/* Green accent blob — top-right */}
       <div
         aria-hidden="true"
@@ -31,12 +19,12 @@ export default function Hero() {
         }}
       />
 
-      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-28 lg:py-32">
+      <div className="relative w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         {/* Eyebrow badge */}
         <div className="flex justify-center mb-6">
           <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold bg-cimmyt-50 text-cimmyt-700 border border-cimmyt-200">
             <span className="w-1.5 h-1.5 rounded-full bg-cimmyt-500 animate-pulse" />
-            CIMMYT Breeding Resources &amp; Services
+            CGIAR Breeding Resources &amp; Services
           </span>
         </div>
 
@@ -52,7 +40,7 @@ export default function Hero() {
         {/* Description */}
         <p className="text-center max-w-2xl mx-auto text-base sm:text-lg text-slate-600 leading-relaxed mb-10">
           SNP-Seek is an open-access genomic variant repository maintained by
-          CIMMYT BRS, providing curated SNP datasets, genotype matrices, and
+          CGIAR BRS, providing curated SNP datasets, genotype matrices, and
           analytical tools to accelerate crop improvement worldwide.
         </p>
 

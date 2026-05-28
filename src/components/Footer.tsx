@@ -18,7 +18,7 @@ const FOOTER_LINKS = [
   {
     heading: "Organization",
     links: [
-      { label: "About CIMMYT BRS", href: "#" },
+      { label: "About CGIAR BRS", href: "#" },
       { label: "Contact", href: "#" },
       { label: "Privacy Policy", href: "#" },
     ],
@@ -47,21 +47,24 @@ export default function Footer() {
                   className="w-4.5 h-4.5"
                   aria-hidden="true"
                 >
-                  <path d="M12 3v18" />
-                  <path d="M8 6c2 1 4 1 6 0M8 10c2 1 4 1 6 0M8 14c2 1 4 1 6 0M8 18c2 1 4 1 6 0" />
-                  <path d="M16 6c-2 1-4 1-6 0M16 10c-2 1-4 1-6 0M16 14c-2 1-4 1-6 0M16 18c-2 1-4 1-6 0" />
+                  <path d="M12 21V11" />
+                  <path d="M12 11C10.5 8.5 10.5 6 12 4C13.5 6 13.5 8.5 12 11Z" />
+                  <path d="M12 14.5C10 13.5 8 14 7.5 15.5C9 16.5 11 16 12 14.5" />
+                  <path d="M12 14.5C14 13.5 16 14 16.5 15.5C15 16.5 13 16 12 14.5" />
+                  <path d="M12 19C9.5 17.5 7 18 6.5 19.5C8.5 20.5 11 20 12 19" />
+                  <path d="M12 19C14.5 17.5 17 18 17.5 19.5C15.5 20.5 13 20 12 19" />
                 </svg>
               </div>
               <div className="leading-tight">
                 <p className="text-white font-bold text-base tracking-tight">SNP-Seek</p>
                 <p className="text-[10px] font-semibold text-cimmyt-400 uppercase tracking-widest">
-                  CIMMYT BRS
+                  CGIAR BRS
                 </p>
               </div>
             </div>
             <p className="text-sm leading-relaxed text-slate-500">
               Open-access genomic variant database for crop improvement,
-              maintained by the CIMMYT Breeding Resources &amp; Services team.
+              maintained by the CGIAR Breeding Resources &amp; Services team.
             </p>
           </div>
 
@@ -90,7 +93,7 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="mt-12 pt-6 border-t border-slate-800 flex flex-col sm:flex-row items-center justify-between gap-3">
           <p className="text-xs text-slate-600">
-            © {year} CIMMYT Breeding Resources &amp; Services. All rights reserved.
+            © {year} CGIAR Breeding Resources &amp; Services. All rights reserved.
           </p>
           <p className="text-xs text-slate-700">
             Served at{" "}

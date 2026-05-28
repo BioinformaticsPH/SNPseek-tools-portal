@@ -29,16 +29,12 @@ export default function Navbar() {
                 className="w-5 h-5"
                 aria-hidden="true"
               >
-                {/* stylised DNA / helix strands */}
-                <path d="M12 3v18" />
-                <path d="M8 6c2 1 4 1 6 0" />
-                <path d="M8 10c2 1 4 1 6 0" />
-                <path d="M8 14c2 1 4 1 6 0" />
-                <path d="M8 18c2 1 4 1 6 0" />
-                <path d="M16 6c-2 1-4 1-6 0" />
-                <path d="M16 10c-2 1-4 1-6 0" />
-                <path d="M16 14c-2 1-4 1-6 0" />
-                <path d="M16 18c-2 1-4 1-6 0" />
+                <path d="M12 21V11" />
+                <path d="M12 11C10.5 8.5 10.5 6 12 4C13.5 6 13.5 8.5 12 11Z" />
+                <path d="M12 14.5C10 13.5 8 14 7.5 15.5C9 16.5 11 16 12 14.5" />
+                <path d="M12 14.5C14 13.5 16 14 16.5 15.5C15 16.5 13 16 12 14.5" />
+                <path d="M12 19C9.5 17.5 7 18 6.5 19.5C8.5 20.5 11 20 12 19" />
+                <path d="M12 19C14.5 17.5 17 18 17.5 19.5C15.5 20.5 13 20 12 19" />
               </svg>
             </div>
 
@@ -47,7 +43,7 @@ export default function Navbar() {
                 SNP-Seek
               </p>
               <p className="text-[10px] font-semibold text-cimmyt-500 uppercase tracking-widest -mt-0.5">
-                CIMMYT BRS
+                CGIAR BRS
               </p>
             </div>
           </a>
