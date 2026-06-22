@@ -1,6 +1,6 @@
 const STATS = [
   { label: "Crop Species", value: "1+" },
-  { label: "Database Instances", value: "4" },
+  { label: "Database Instances", value: "3" },
   { label: "Accessions", value: "~29 K" },
   { label: "SNP Variants", value: "~64 M" },
   { label: "Genotyped Lines", value: "~50 K" },

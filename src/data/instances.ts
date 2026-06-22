@@ -70,6 +70,16 @@ export const cropGroups: CropGroup[] = [
         snpCount: "[PLACEHOLDER]", // not yet published
         badge: "Nipponbare",
       },
+      {
+        // [PLACEHOLDER] — 19K RG SNP-Seek instance; fill in real values when published
+        name: "19K RG SNP-Seek",
+        url: "https://brs-snpseek.duckdns.org/19k/",
+        description:
+          "[PLACEHOLDER]",
+        accessions: "[PLACEHOLDER]",
+        snpCount: "[PLACEHOLDER]",
+        badge: "[PLACEHOLDER]",
+      },
     ],
   },
 
