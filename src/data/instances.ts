@@ -58,19 +58,6 @@ export const cropGroups: CropGroup[] = [
         badge: "Multi-ref",
       },
       {
-        // Source: Philippine Genome Center / PhilRice / DOST-PCAARRD
-        // Full name: 1,001 Philippine Traditional Rice Varieties Genomics Program (1k1RG)
-        // Reference genome: Japonica Nipponbare (IRGSP-1.0)
-        // SNP count: [PLACEHOLDER] — not yet published as of 2026
-        name: "1K1 Philippine Rice SNP-Seek",
-        url: "https://brs-snpseek.duckdns.org/ph_gdb/",
-        description:
-          "SNP catalog for 1,001 Philippine traditional rice varieties (TRVs), a collaborative genomics program led by the Philippine Genome Center, PhilRice, and IRRI to characterise heirloom and heritage rice diversity.",
-        accessions: "1,001",
-        snpCount: "[PLACEHOLDER]", // not yet published
-        badge: "Nipponbare",
-      },
-      {
         // [PLACEHOLDER] — 19K RG SNP-Seek instance; fill in real values when published
         name: "19K RG SNP-Seek",
         url: "https://brs-snpseek.duckdns.org/19k/",
